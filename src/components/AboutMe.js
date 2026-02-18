@@ -17,36 +17,33 @@ export const AboutMe = () => {
       <div className="about-text-container" data-aos="fade-up">
         <div>
           <p>
-            Hey there! I'm <strong>Mohamed Zuhair</strong> — a Machine Learning Engineer
-            passionate about building systems that help machines understand the world better.
+            I’m <strong>Mohamed Zuhair</strong>, an aspiring Machine Learning Engineer 
+            focused on building intelligent systems that transform complex data into 
+            <strong> scalable, production-ready solutions</strong>. I specialize in 
+            designing AI models that bridge the gap between high accuracy and 
+            real-world efficiency.
           </p>
 
           <p>
-            I’m currently pursuing{" "}
-            <strong>Computer Science and Engineering with a specialization in AI & ML</strong>.
-            What began as curiosity about how algorithms learn turned into a passion for solving
-            real-world problems through data and intelligent automation.
+            My technical foundation is built on <strong>Python, TensorFlow, PyTorch, 
+            and Scikit-learn</strong>, which I leverage to develop robust machine 
+            learning and deep learning systems. From <strong>CNN-based computer vision 
+            architectures</strong> to advanced regression and clustering models, 
+            I prioritize model optimization and rigorous performance evaluation 
+            using modern data processing tools like <strong>NumPy, Pandas, and Seaborn</strong>.
           </p>
 
           <p>
-            I’ve explored various domains, from{" "}
-            <strong>NeuroBin</strong> — an AI-powered smart waste bin — to research that studies
-            how AI can enhance <strong>Additive Manufacturing</strong>. Each project helps me see
-            how theory turns into working technology.
+            Beyond the models, I am a firm believer in <strong>clean, reproducible AI</strong>. 
+            I follow structured development workflows using <strong>Git</strong> and 
+            modular design principles to ensure that every solution I build is not 
+            just a prototype, but a deployable asset.
           </p>
 
           <p>
-            My current skillset includes{" "}
-            <strong>
-              Python, TensorFlow, PyTorch, scikit-learn, NumPy, Pandas,
-            </strong>{" "}
-            and data visualization tools. I love creating models that are efficient, interpretable,
-            and practical to deploy.
-          </p>
-
-          <p>
-            Outside coding, I enjoy tinkering with circuits and exploring how software and hardware
-            connect — because intelligence isn’t only digital, it’s physical too.
+            I thrive at the intersection of <strong>software and hardware</strong>, 
+            often exploring how intelligent automation can be physically implemented 
+            to solve tangible problems in sustainability and manufacturing.
           </p>
         </div>
 

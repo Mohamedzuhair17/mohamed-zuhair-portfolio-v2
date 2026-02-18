@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 // import projLogo1 from "../assets/img/ic-neurobin.png";
 // import projLogo2 from "../assets/img/ic-ai-additive.png";
-// import projLogo3 from "../assets/img/favicon.png";
+// import projLogo3 from "../assets/img/favicon.png"; // You might want to update this logo later
 
 export const Projects = () => {
   useEffect(() => {
@@ -15,8 +15,6 @@ export const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      // logo: projLogo1,
-      // logoClass: "project-logo1",
       title: "NeuroBin — Smart Waste Classification System",
       fullDescription:
         "NeuroBin uses a Convolutional Neural Network (CNN) model integrated with IoT sensors to automatically classify waste into recyclable and non-recyclable categories. The system optimizes waste segregation through real-time predictions and edge-based inference, improving efficiency and sustainability.",
@@ -36,8 +34,6 @@ export const Projects = () => {
     },
     {
       id: 2,
-      // logo: projLogo2,
-      // logoClass: "project-logo2",
       title: "AI in Additive Manufacturing — Research & Analysis",
       fullDescription:
         "A detailed research study exploring how AI algorithms enhance additive manufacturing through process optimization, defect detection, and predictive maintenance. The project integrates data analytics with machine learning techniques to improve manufacturing accuracy and efficiency.",
@@ -50,31 +46,24 @@ export const Projects = () => {
         "Research",
         "Data Analytics",
       ],
-      link: {
-        type: "github",
-        url: "https://github.com/Mohamedzuhair17/AI-in-Additive-Manufacturing",
-      },
+      
     },
     {
       id: 3,
-      // logo: projLogo3,
-      // logoClass: "project-logo3",
-      title: "Mohamed Zuhair | ML Engineer Portfolio",
+      title: "REVISO — AI School Assistant",
       fullDescription:
-        "A minimal, modern React portfolio highlighting my journey as a Machine Learning Engineer. Includes smooth animations, a skill showcase, and live project demos built with React, AOS, and EmailJS.",
+        "An intelligent educational companion designed to streamline student learning. REVISO leverages Large Language Models (LLMs) to provide automated tutoring, summarize complex academic topics, and generate practice materials, making high-quality personalized education more accessible.",
       tags: [
-        "React",
-        "Bootstrap 5",
-        "AOS",
-        "Animate.css",
-        "EmailJS",
-        "JavaScript",
-        "CSS3",
-        "HTML5",
+        "Python",
+        "OpenAI API",
+        "LangChain",
+        "Streamlit",
+        "NLP",
+        "Educational Tech",
       ],
       link: {
         type: "github",
-        url: "https://github.com/Mohamedzuhair17/yousuf-buhari-portfolio",
+        url: "https://github.com/Mohamedzuhair17/REVISO-AI-SCHOOL-ASSISTANT.git",
       },
     },
   ];
@@ -88,14 +77,6 @@ export const Projects = () => {
       <div className="project-wrapper">
         {projectsData.map((project) => (
           <div key={project.id} className="project-card" data-aos="fade-up">
-            {/* <div className="project-header">
-              <img
-                src={project.logo}
-                alt={`${project.title} Logo`}
-                className={project.logoClass}
-              />
-            </div> */}
-
             <div className="project-info">
               <span className="project-title">{project.title}</span>
               <p className="project-description">{project.fullDescription}</p>
