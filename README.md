@@ -1,3 +1,23 @@
+<!-- EFFECTS-BLOCK:START -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=F6F1EA&height=180&section=header&text=Mohamed%20Zuhair%20Portfolio%20V2&fontSize=44&fontColor=111111&desc=Interactive%20portfolio%20platform%20highlighting%20ML%20engineering%20outcomes%20and%20full-stack%20product%20execution.&descSize=14&descAlignY=68" alt="Mohamed Zuhair Portfolio V2" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Mohamedzuhair17/mohamed-zuhair-portfolio-v2"><img src="https://img.shields.io/badge/Repository-111111?style=for-the-badge&logo=github" alt="repo" /></a>
+  <img src="https://img.shields.io/github/stars/Mohamedzuhair17/=for-the-badge&color=111111" alt="stars" />
+  <img src="https://img.shields.io/github/forks/Mohamedzuhair17/=for-the-badge&color=111111" alt="forks" />
+  <img src="https://img.shields.io/github/last-commit/Mohamedzuhair17/=for-the-badge&color=111111" alt="last commit" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Stack-JavaScript-F6F1EA?style=for-the-badge&labelColor=111111&color=F6F1EA" alt="stack" />
+  <img src="https://img.shields.io/badge/Engineering-Production%20Grade-111111?style=for-the-badge" alt="engineering" />
+</p>
+<!-- EFFECTS-BLOCK:END -->
+
+---
+
 # Mohamed Zuhair - ML Engineer portfolio
 
 A modern, responsive single-page portfolio showcasing Android development projects, technical skills, and professional contact information.
